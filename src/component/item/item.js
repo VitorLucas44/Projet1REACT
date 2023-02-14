@@ -4,8 +4,8 @@ import './item.css';
 
 const Item = (props)=>{
     return(
-        <div className={"trackerItem "+props.title}>
-            <div className="trackerInfo">
+        <div className={"Lesitem "+props.title}>
+            <div className="Lesinfos">
                 <div className="header">
                     <span className="title">{props.title}</span>
                     <img src={iconEllipsis} alt="settings"/>

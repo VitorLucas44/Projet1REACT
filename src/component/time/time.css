@@ -1,4 +1,4 @@
-.time{
+.temps{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -6,7 +6,7 @@
     padding: 25px;
 }
 
-.time li{
+.temps li{
     list-style: none;
     color: var(--Pale-Blue);
     padding-bottom: 15px;
@@ -15,15 +15,29 @@
     font-size: 0.9rem;
     cursor: pointer;
 }
-.time li:hover, .time li.active{
+.temps li:hover, .temps li.active{
     color: #fff;
 }
 
 @media (max-width: 375px) {
-    .time{
+    .temps{
         width: 100%;
     }
-    .time li{
+    .temps li{
+        font-size: 1.1rem;
+    }
+    .tabs{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 426px) {
+    .temps{
+        width: 100%;
+    }
+    .temps li{
         font-size: 1.1rem;
     }
     .tabs{

@@ -1,7 +1,7 @@
 const Tabs = ()=>{
 
-    const tabs = document.getElementsByClassName('tab');
-    const tabsContent = document.getElementsByClassName('tabContent');
+    let tabs = document.getElementsByClassName('tab');
+    let tabsContent = document.getElementsByClassName('tabContent');
 
     for(let i=0; i<tabs.length; i++){
         if(tabs[i].classList.contains('active')){

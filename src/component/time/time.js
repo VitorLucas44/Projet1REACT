@@ -17,7 +17,7 @@ class Time extends Component{
     }
     render(){
         return(
-            <div className="time">
+            <div className="temps">
                 <ul className="tabs">
                     <li data-tab="daily" className="tab active" onClick={e=>this.changeActiveTab(e)}>daily</li>
                     <li data-tab="weekly" className="tab" onClick={e=>this.changeActiveTab(e)}>weekly</li>
